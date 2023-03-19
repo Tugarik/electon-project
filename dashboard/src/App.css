@@ -1,0 +1,27 @@
+
+
+.mainLayout {
+  display: flex;
+}
+
+.Aside {
+  width: 30vw;
+  height: calc(100vh - 50px);
+}
+
+button {
+  cursor: pointer;
+  width: 30%;
+  background-color: #fcfcfc;
+  color: #838383;
+  border-radius: 10px;
+  border: 0;
+  padding: 5px;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.menuBtn-active {
+  background-color: #003585;
+  color: #fff;
+}
